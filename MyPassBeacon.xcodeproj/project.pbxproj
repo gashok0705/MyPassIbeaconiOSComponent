@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBFA2E98233A76520042D95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2E97233A76520042D95B /* AppDelegate.swift */; };
+		CBFA2E9A233A76520042D95B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2E99233A76520042D95B /* ViewController.swift */; };
+		CBFA2E9D233A76520042D95B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFA2E9B233A76520042D95B /* Main.storyboard */; };
+		CBFA2E9F233A76540042D95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFA2E9E233A76540042D95B /* Assets.xcassets */; };
+		CBFA2EA2233A76540042D95B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFA2EA0233A76540042D95B /* LaunchScreen.storyboard */; };
+		CBFA2EAD233A76540042D95B /* MyPassBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2EAC233A76540042D95B /* MyPassBeaconTests.swift */; };
+		CBFA2EB8233A76540042D95B /* MyPassBeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2EB7233A76540042D95B /* MyPassBeaconUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBFA2EA9233A76540042D95B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFA2E8C233A76520042D95B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFA2E93233A76520042D95B;
+			remoteInfo = MyPassBeacon;
+		};
+		CBFA2EB4233A76540042D95B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFA2E8C233A76520042D95B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFA2E93233A76520042D95B;
+			remoteInfo = MyPassBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBFA2E94233A76520042D95B /* MyPassBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPassBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFA2E97233A76520042D95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBFA2E99233A76520042D95B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBFA2E9C233A76520042D95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBFA2E9E233A76540042D95B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBFA2EA1233A76540042D95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBFA2EA3233A76540042D95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFA2EA8233A76540042D95B /* MyPassBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPassBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFA2EAC233A76540042D95B /* MyPassBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassBeaconTests.swift; sourceTree = "<group>"; };
+		CBFA2EAE233A76540042D95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFA2EB3233A76540042D95B /* MyPassBeaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPassBeaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFA2EB7233A76540042D95B /* MyPassBeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassBeaconUITests.swift; sourceTree = "<group>"; };
+		CBFA2EB9233A76540042D95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFA2E91233A76520042D95B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFA2EA5233A76540042D95B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFA2EB0233A76540042D95B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFA2E8B233A76520042D95B = {
+			isa = PBXGroup;
+			children = (
+				CBFA2E96233A76520042D95B /* MyPassBeacon */,
+				CBFA2EAB233A76540042D95B /* MyPassBeaconTests */,
+				CBFA2EB6233A76540042D95B /* MyPassBeaconUITests */,
+				CBFA2E95233A76520042D95B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFA2E95233A76520042D95B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA2E94233A76520042D95B /* MyPassBeacon.app */,
+				CBFA2EA8233A76540042D95B /* MyPassBeaconTests.xctest */,
+				CBFA2EB3233A76540042D95B /* MyPassBeaconUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFA2E96233A76520042D95B /* MyPassBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA2E97233A76520042D95B /* AppDelegate.swift */,
+				CBFA2E99233A76520042D95B /* ViewController.swift */,
+				CBFA2E9B233A76520042D95B /* Main.storyboard */,
+				CBFA2E9E233A76540042D95B /* Assets.xcassets */,
+				CBFA2EA0233A76540042D95B /* LaunchScreen.storyboard */,
+				CBFA2EA3233A76540042D95B /* Info.plist */,
+			);
+			path = MyPassBeacon;
+			sourceTree = "<group>";
+		};
+		CBFA2EAB233A76540042D95B /* MyPassBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA2EAC233A76540042D95B /* MyPassBeaconTests.swift */,
+				CBFA2EAE233A76540042D95B /* Info.plist */,
+			);
+			path = MyPassBeaconTests;
+			sourceTree = "<group>";
+		};
+		CBFA2EB6233A76540042D95B /* MyPassBeaconUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA2EB7233A76540042D95B /* MyPassBeaconUITests.swift */,
+				CBFA2EB9233A76540042D95B /* Info.plist */,
+			);
+			path = MyPassBeaconUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFA2E93233A76520042D95B /* MyPassBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFA2EBC233A76540042D95B /* Build configuration list for PBXNativeTarget "MyPassBeacon" */;
+			buildPhases = (
+				CBFA2E90233A76520042D95B /* Sources */,
+				CBFA2E91233A76520042D95B /* Frameworks */,
+				CBFA2E92233A76520042D95B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPassBeacon;
+			productName = MyPassBeacon;
+			productReference = CBFA2E94233A76520042D95B /* MyPassBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBFA2EA7233A76540042D95B /* MyPassBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFA2EBF233A76540042D95B /* Build configuration list for PBXNativeTarget "MyPassBeaconTests" */;
+			buildPhases = (
+				CBFA2EA4233A76540042D95B /* Sources */,
+				CBFA2EA5233A76540042D95B /* Frameworks */,
+				CBFA2EA6233A76540042D95B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFA2EAA233A76540042D95B /* PBXTargetDependency */,
+			);
+			name = MyPassBeaconTests;
+			productName = MyPassBeaconTests;
+			productReference = CBFA2EA8233A76540042D95B /* MyPassBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBFA2EB2233A76540042D95B /* MyPassBeaconUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFA2EC2233A76540042D95B /* Build configuration list for PBXNativeTarget "MyPassBeaconUITests" */;
+			buildPhases = (
+				CBFA2EAF233A76540042D95B /* Sources */,
+				CBFA2EB0233A76540042D95B /* Frameworks */,
+				CBFA2EB1233A76540042D95B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFA2EB5233A76540042D95B /* PBXTargetDependency */,
+			);
+			name = MyPassBeaconUITests;
+			productName = MyPassBeaconUITests;
+			productReference = CBFA2EB3233A76540042D95B /* MyPassBeaconUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFA2E8C233A76520042D95B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Rajagopal Ganesan";
+				TargetAttributes = {
+					CBFA2E93233A76520042D95B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CBFA2EA7233A76540042D95B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CBFA2E93233A76520042D95B;
+					};
+					CBFA2EB2233A76540042D95B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CBFA2E93233A76520042D95B;
+					};
+				};
+			};
+			buildConfigurationList = CBFA2E8F233A76520042D95B /* Build configuration list for PBXProject "MyPassBeacon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBFA2E8B233A76520042D95B;
+			productRefGroup = CBFA2E95233A76520042D95B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBFA2E93233A76520042D95B /* MyPassBeacon */,
+				CBFA2EA7233A76540042D95B /* MyPassBeaconTests */,
+				CBFA2EB2233A76540042D95B /* MyPassBeaconUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFA2E92233A76520042D95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFA2EA2233A76540042D95B /* LaunchScreen.storyboard in Resources */,
+				CBFA2E9F233A76540042D95B /* Assets.xcassets in Resources */,
+				CBFA2E9D233A76520042D95B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFA2EA6233A76540042D95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFA2EB1233A76540042D95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFA2E90233A76520042D95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFA2E9A233A76520042D95B /* ViewController.swift in Sources */,
+				CBFA2E98233A76520042D95B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFA2EA4233A76540042D95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFA2EAD233A76540042D95B /* MyPassBeaconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFA2EAF233A76540042D95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFA2EB8233A76540042D95B /* MyPassBeaconUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBFA2EAA233A76540042D95B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFA2E93233A76520042D95B /* MyPassBeacon */;
+			targetProxy = CBFA2EA9233A76540042D95B /* PBXContainerItemProxy */;
+		};
+		CBFA2EB5233A76540042D95B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFA2E93233A76520042D95B /* MyPassBeacon */;
+			targetProxy = CBFA2EB4233A76540042D95B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBFA2E9B233A76520042D95B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFA2E9C233A76520042D95B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFA2EA0233A76540042D95B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFA2EA1233A76540042D95B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFA2EBA233A76540042D95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBFA2EBB233A76540042D95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBFA2EBD233A76540042D95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = MyPassBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.mypassbeacon.MyPassBeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBFA2EBE233A76540042D95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = MyPassBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.mypassbeacon.MyPassBeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBFA2EC0233A76540042D95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = MyPassBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.mypassbeacon.MyPassBeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPassBeacon.app/MyPassBeacon";
+			};
+			name = Debug;
+		};
+		CBFA2EC1233A76540042D95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = MyPassBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.mypassbeacon.MyPassBeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPassBeacon.app/MyPassBeacon";
+			};
+			name = Release;
+		};
+		CBFA2EC3233A76540042D95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = MyPassBeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.mypassbeacon.MyPassBeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyPassBeacon;
+			};
+			name = Debug;
+		};
+		CBFA2EC4233A76540042D95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = MyPassBeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.mypassbeacon.MyPassBeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyPassBeacon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFA2E8F233A76520042D95B /* Build configuration list for PBXProject "MyPassBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFA2EBA233A76540042D95B /* Debug */,
+				CBFA2EBB233A76540042D95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFA2EBC233A76540042D95B /* Build configuration list for PBXNativeTarget "MyPassBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFA2EBD233A76540042D95B /* Debug */,
+				CBFA2EBE233A76540042D95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFA2EBF233A76540042D95B /* Build configuration list for PBXNativeTarget "MyPassBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFA2EC0233A76540042D95B /* Debug */,
+				CBFA2EC1233A76540042D95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFA2EC2233A76540042D95B /* Build configuration list for PBXNativeTarget "MyPassBeaconUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFA2EC3233A76540042D95B /* Debug */,
+				CBFA2EC4233A76540042D95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBFA2E8C233A76520042D95B /* Project object */;
+}
