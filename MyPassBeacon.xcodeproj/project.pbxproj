@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB024E62233BC0830026C799 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB024E61233BC0830026C799 /* Constants.swift */; };
 		CBFA2E98233A76520042D95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2E97233A76520042D95B /* AppDelegate.swift */; };
 		CBFA2E9A233A76520042D95B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2E99233A76520042D95B /* ViewController.swift */; };
 		CBFA2E9D233A76520042D95B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFA2E9B233A76520042D95B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB024E61233BC0830026C799 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CBFA2E94233A76520042D95B /* MyPassBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPassBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFA2E97233A76520042D95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBFA2E99233A76520042D95B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB024E60233BBFF20026C799 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA2E99233A76520042D95B /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		CBFA2E8B233A76520042D95B = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				CBFA2E97233A76520042D95B /* AppDelegate.swift */,
-				CBFA2E99233A76520042D95B /* ViewController.swift */,
+				CB024E60233BBFF20026C799 /* ViewControllers */,
 				CBFA2E9B233A76520042D95B /* Main.storyboard */,
 				CBFA2E9E233A76540042D95B /* Assets.xcassets */,
 				CBFA2EA0233A76540042D95B /* LaunchScreen.storyboard */,
 				CBFA2EA3233A76540042D95B /* Info.plist */,
+				CB024E61233BC0830026C799 /* Constants.swift */,
 			);
 			path = MyPassBeacon;
 			sourceTree = "<group>";
@@ -193,6 +204,11 @@
 				TargetAttributes = {
 					CBFA2E93233A76520042D95B = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					CBFA2EA7233A76540042D95B = {
 						CreatedOnToolsVersion = 10.3;
@@ -258,6 +274,7 @@
 			files = (
 				CBFA2E9A233A76520042D95B /* ViewController.swift in Sources */,
 				CBFA2E98233A76520042D95B /* AppDelegate.swift in Sources */,
+				CB024E62233BC0830026C799 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,15 +449,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KY9FTZ848;
 				INFOPLIST_FILE = MyPassBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.raj.mypassbeacon.MyPassBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,15 +470,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KY9FTZ848;
 				INFOPLIST_FILE = MyPassBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.raj.mypassbeacon.MyPassBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

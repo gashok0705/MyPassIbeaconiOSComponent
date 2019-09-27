@@ -18,8 +18,22 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>MyPassBeacon would like to access your location for identifying beacons around you</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>MyPassBeacon would like to access your location for identifying beacons around you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>MyPassBeacon would like to access your location for identifying beacons around you</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>fetch</string>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
