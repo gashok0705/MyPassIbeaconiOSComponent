@@ -1,4 +1,4 @@
-# MyPassIbeaconiOSComponent
+# ibeaconiOSComponent
 A generic application which is useful to detect beacons around you. Included background support too. Added Push notifications to denote the user about the beacon status.
 
 This compnent is consuming the Apple's core location framework to get work. 
